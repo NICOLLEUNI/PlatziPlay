@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="OpenBpmProjectModulesStateV2">
+    <option name="hasState" value="true" />
+    <option name="moduleState">
+      <JmixModuleStateV2>
+        <option name="artifactGroup" value="com.platzi" />
+        <option name="artifactName" value="platziPlay" />
+        <option name="artifactVersion" value="0.0.1-SNAPSHOT" />
+        <option name="buildFilePath" value="C:\Users\User\Desktop\platziPlay\platziPlay\build.gradle" />
+        <option name="buildScriptDependencies">
+          <Dependency configuration="classpath" group="org.springframework.boot" name="org.springframework.boot.gradle.plugin" version="3.5.6" />
+          <Dependency configuration="classpath" group="io.spring.dependency-management" name="io.spring.dependency-management.gradle.plugin" version="1.1.7" />
+        </option>
+        <option name="buildSystemName" value="Gradle" />
+        <option name="classesDir" value="C:\Users\User\Desktop\platziPlay\platziPlay\build\classes\java\main" />
+        <option name="dependencies">
+          <Dependency configuration="implementation" group="org.springframework.boot" name="spring-boot-starter-web" />
+          <Dependency configuration="implementation" group="dev.langchain4j" name="langchain4j-open-ai-spring-boot-starter" version="1.7.1-beta14" />
+          <Dependency configuration="implementation" group="dev.langchain4j" name="langchain4j-spring-boot-starter" version="1.7.1-beta14" />
+          <Dependency configuration="testImplementation" group="org.springframework.boot" name="spring-boot-starter-test" />
+          <Dependency configuration="testRuntimeOnly" group="org.junit.platform" name="junit-platform-launcher" />
+        </option>
+        <option name="jarFile" value="C:\Users\User\Desktop\platziPlay\platziPlay\build\libs\platziPlay-0.0.1-SNAPSHOT-plain.jar" />
+        <option name="mavenLocal" value="true" />
+        <option name="mavenLocalURI" value="file:/$MAVEN_REPOSITORY$/" />
+        <option name="moduleName" value="platziPlay" />
+        <option name="rootBuildFilePath" value="C:\Users\User\Desktop\platziPlay\platziPlay\build.gradle" />
+        <option name="rootProjectName" value="platziPlay" />
+        <option name="stateBuildScriptRepositories">
+          <Repository url="https://plugins.gradle.org/m2" />
+        </option>
+        <option name="stateRepositories">
+          <Repository url="https://repo.maven.apache.org/maven2/" />
+        </option>
+      </JmixModuleStateV2>
+    </option>
+  </component>
+</module>
