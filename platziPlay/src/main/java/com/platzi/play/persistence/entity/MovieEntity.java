@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Entity
-@Table(name="Platzi_play_peliculas")
+@Table(name="platzi_play_peliculas")
 public class MovieEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -24,7 +24,7 @@ public class MovieEntity {
     @Column(name="fecha_estreno")
     private LocalDate fechaEstreno;
 
-    @Column(nullable = false,precision = 3,scale = 2)
+    @Column(nullable = true,precision = 3,scale = 2)
     private BigDecimal clasificacion;
 
     @Column(nullable = false,length = 1)

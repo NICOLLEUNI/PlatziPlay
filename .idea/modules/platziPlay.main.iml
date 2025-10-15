@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/../../platziPlay/build/generated/sources/annotationProcessor/java/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../platziPlay/build/generated/sources/annotationProcessor/java/main" isTestSource="false" generated="true" />
+    </content>
+  </component>
   <component name="OpenBpmProjectModulesStateV2">
     <option name="hasState" value="true" />
     <option name="moduleState">
@@ -19,6 +24,7 @@
           <Dependency configuration="implementation" group="org.springframework.boot" name="spring-boot-starter-data-jpa" />
           <Dependency configuration="implementation" group="dev.langchain4j" name="langchain4j-open-ai-spring-boot-starter" version="1.7.1-beta14" />
           <Dependency configuration="implementation" group="dev.langchain4j" name="langchain4j-spring-boot-starter" version="1.7.1-beta14" />
+          <Dependency configuration="implementation" group="org.mapstruct" name="mapstruct" version="1.6.3" />
           <Dependency configuration="runtimeOnly" group="org.postgresql" name="postgresql" />
           <Dependency configuration="testImplementation" group="org.springframework.boot" name="spring-boot-starter-test" />
           <Dependency configuration="testRuntimeOnly" group="org.junit.platform" name="junit-platform-launcher" />
