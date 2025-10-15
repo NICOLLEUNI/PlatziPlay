@@ -16,8 +16,10 @@
         <option name="classesDir" value="C:\Users\User\Desktop\platziPlay\platziPlay\build\classes\java\main" />
         <option name="dependencies">
           <Dependency configuration="implementation" group="org.springframework.boot" name="spring-boot-starter-web" />
+          <Dependency configuration="implementation" group="org.springframework.boot" name="spring-boot-starter-data-jpa" />
           <Dependency configuration="implementation" group="dev.langchain4j" name="langchain4j-open-ai-spring-boot-starter" version="1.7.1-beta14" />
           <Dependency configuration="implementation" group="dev.langchain4j" name="langchain4j-spring-boot-starter" version="1.7.1-beta14" />
+          <Dependency configuration="runtimeOnly" group="org.postgresql" name="postgresql" />
           <Dependency configuration="testImplementation" group="org.springframework.boot" name="spring-boot-starter-test" />
           <Dependency configuration="testRuntimeOnly" group="org.junit.platform" name="junit-platform-launcher" />
         </option>
